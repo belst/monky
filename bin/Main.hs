@@ -118,7 +118,7 @@ getConfig = do
 
 
 compilerFlags :: String
-compilerFlags = "--make -XOverloadedStrings -odir build -hidir build -O -with-rtsopts=-V0"
+compilerFlags = "--make -XOverloadedStrings -odir build -hidir build -O -with-rtsopts=-V0 -dynamic"
 
 
 changeDir :: Config -> IO ()
